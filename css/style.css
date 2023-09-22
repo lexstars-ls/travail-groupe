@@ -3,3 +3,9 @@
     --clr2: #7B7B7B;
     --clr3: #1C1C1C;
 }
+
+
+footer{
+    text-align: center;
+    background-color:var(--clr2);
+ }
