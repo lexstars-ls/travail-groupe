@@ -1,7 +1,7 @@
 :root{
     --clr1: #F8F8F8;
     --clr2: #7B7B7B;
-    --clr3: #1C1C1C;
+    --clr3: #0f0f0f;
 }
 
 *{
@@ -11,7 +11,7 @@
 }
 
 body{
-    overflow-x: hidden²;
+    overflow-x: hidden;
 }
 
 main{
@@ -23,6 +23,44 @@ main{
     background: var(--clr3);
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperMain>div{
+    display: flex;
+}
+
+.wrapperMain div:has(h2){
+    height: min-content;
+}
+
+.wrapperMain div h1{
+    color: var(--clr1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: 0%;
+    font-size: 16em;
+    line-height: 200px;
+}
+
+.wrapperMain div h2{
+    color: var(--clr1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8em;
+    text-transform: uppercase;
+    height: 50%;
+    line-height: 100px;
+    transition: color ease-in-out .3s;
+    cursor: pointer;
+}
+
+.sabliers:hover{
+    color: #dbc961;
+}
+
+.sakuras:hover{
+    color: #f393db;
 }
 
 footer{
