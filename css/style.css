@@ -3,3 +3,21 @@
     --clr2: #7B7B7B;
     --clr3: #1C1C1C;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerMain{
+    background: var(--clr3);
+    width: 100%;
+    height: 100%;
+}
+
