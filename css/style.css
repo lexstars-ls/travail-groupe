@@ -21,3 +21,7 @@ main{
     height: 100%;
 }
 
+footer{
+    text-align: center;
+    background-color:var(--clr2);
+}
