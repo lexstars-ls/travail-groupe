@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden²;
+}
+
 main{
     width: 100vw;
     height: 100vh;
